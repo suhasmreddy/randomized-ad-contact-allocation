@@ -1,0 +1,7 @@
+dataset_mode,estimator,comparison,policy_a,policy_b,delta_per_1000_eligible,bootstrap_se,ci95_low,ci95_high,ci95_excludes_zero,conclusion,bootstrap_replicates
+real_criteo_v2.1,primary_pooled_e,uplift_vs_response,uplift,response,-0.3043234391173044,1.0900544084404689,-2.410649923330188,1.8598834019440535,False,inconclusive_spans_zero,1000
+real_criteo_v2.1,primary_pooled_e,uplift_vs_uniform,uplift,uniform,4.9703365033978955,2.0495970545330864,0.7249407004814714,8.772002788471413,True,positive_statistically_distinguishable,1000
+real_criteo_v2.1,primary_pooled_e,response_vs_uniform,response,uniform,5.2746599425152,2.18072229248126,0.6946152393475011,9.430565669809067,True,positive_statistically_distinguishable,1000
+real_criteo_v2.1,sensitivity_propensity_e_x,uplift_vs_response,uplift,response,-0.24740787230569783,1.1004865162865252,-2.379751770454515,1.9519493219996644,False,inconclusive_spans_zero,1000
+real_criteo_v2.1,sensitivity_propensity_e_x,uplift_vs_uniform,uplift,uniform,2.9036239839834934,2.1668215462480283,-1.5322853127819913,6.906274961191367,False,inconclusive_spans_zero,1000
+real_criteo_v2.1,sensitivity_propensity_e_x,response_vs_uniform,response,uniform,3.1510318562891912,2.2934781036861405,-1.6742890536626402,7.404567080810066,False,inconclusive_spans_zero,1000

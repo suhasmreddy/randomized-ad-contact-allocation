@@ -1,0 +1,49 @@
+{
+  "sql_engine": "sqlite3 3.40.1 (stdlib fallback; install duckdb for native DuckDB execution)",
+  "tolerance": 1e-09,
+  "all_metrics_agree": true,
+  "comparisons": {
+    "v_uniform_per_1k": {
+      "python_value": 1.0866465798750082,
+      "sql_value": 1.086646579875005,
+      "abs_diff": 3.3306690738754696e-15,
+      "agrees_within_tol": true
+    },
+    "v_response_per_1k": {
+      "python_value": 8.989398376165624,
+      "sql_value": 8.989398376165605,
+      "abs_diff": 1.9539925233402755e-14,
+      "agrees_within_tol": true
+    },
+    "v_uplift_per_1k": {
+      "python_value": 9.828285298357706,
+      "sql_value": 9.828285298357683,
+      "abs_diff": 2.3092638912203256e-14,
+      "agrees_within_tol": true
+    },
+    "delta_uplift_vs_response_per_1k": {
+      "python_value": 0.8388869221920814,
+      "sql_value": 0.8388869221920778,
+      "abs_diff": 3.552713678800501e-15,
+      "agrees_within_tol": true
+    },
+    "delta_uplift_vs_uniform_per_1k": {
+      "python_value": 8.741638718482697,
+      "sql_value": 8.741638718482678,
+      "abs_diff": 1.9539925233402755e-14,
+      "agrees_within_tol": true
+    },
+    "delta_response_vs_uniform_per_1k": {
+      "python_value": 7.902751796290616,
+      "sql_value": 7.9027517962906,
+      "abs_diff": 1.5987211554602254e-14,
+      "agrees_within_tol": true
+    },
+    "overall_itt_visit_diff_pp": {
+      "python_value": 0.5470738102931472,
+      "sql_value": 0.5470738102931472,
+      "abs_diff": 0.0,
+      "agrees_within_tol": true
+    }
+  }
+}

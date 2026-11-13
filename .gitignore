@@ -1,0 +1,12 @@
+# Keep raw Criteo data and large intermediate artifacts out of version control
+data/raw/*.csv
+data/raw/*.csv.gz
+
+
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store

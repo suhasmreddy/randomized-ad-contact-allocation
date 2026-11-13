@@ -1,0 +1,7 @@
+dataset_mode,estimator,comparison,policy_a,policy_b,delta_per_1000_eligible,bootstrap_se,ci95_low,ci95_high,ci95_excludes_zero,conclusion,bootstrap_replicates
+synthetic_fixture,primary_pooled_e,uplift_vs_response,uplift,response,0.8388869221920814,5.390668087114064,-8.507733606061702,12.984887014003966,False,inconclusive_spans_zero,1000
+synthetic_fixture,primary_pooled_e,uplift_vs_uniform,uplift,uniform,8.741638718482697,5.337533120033134,-1.9167308172758226,18.958314757612218,False,inconclusive_spans_zero,1000
+synthetic_fixture,primary_pooled_e,response_vs_uniform,response,uniform,7.902751796290616,6.210924529116707,-4.855566227705833,18.67634413917974,False,inconclusive_spans_zero,1000
+synthetic_fixture,sensitivity_propensity_e_x,uplift_vs_response,uplift,response,1.8302338916841663,5.881311927517548,-8.457178026736617,14.86605732398291,False,inconclusive_spans_zero,1000
+synthetic_fixture,sensitivity_propensity_e_x,uplift_vs_uniform,uplift,uniform,8.815087654972121,5.434523915718677,-1.9103616243132677,19.35544335448817,False,inconclusive_spans_zero,1000
+synthetic_fixture,sensitivity_propensity_e_x,response_vs_uniform,response,uniform,6.984853763287954,6.479828622974859,-6.616276688537044,18.40752953747058,False,inconclusive_spans_zero,1000
